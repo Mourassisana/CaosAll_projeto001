@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    /*background-color: #03070f;*/
+    height: 100vh;
+    box-sizing: border-box;
+    background-image: url('caosallfundocompleto.png'); /* Caminho da imagem */
+    background-size: cover; /* Faz a imagem preencher a tela */
+    background-position: center; /* Centraliza a imagem */
+    background-repeat: no-repeat; /* Evita repetição da imagem */
+    height: 100vh; /* Garante que a imagem ocupe 100% da altura da tela */
+    margin: 0; /* Remove margens padrão do body */
+    color: #f6f6f6; /* Cor do texto */
+    }
+
+    .apresentacao {
+        padding: 0 8%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .apresentacao__conteudo {
+        width: 620px;
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .apresentacao__conteudo__destaque-h1 {
+    /*color: #22D4FD;
+    border: 1px solid #22D4FD;
+    padding: 10px;*/
+    color: #d98f75;
+    }
+
+    .apresentacao__conteudo__destaque-h2 {
+    color: #fbce45;
+    }
+
+    .apresentacao__conteudo__h1 {
+        font-size: 36px;
+    
+        }
+    
+    .apresentacao__conteudo__h4 {
+        font-size: 24px;
+        }
+        
+    .apresentacao__links{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-top: 20px;        
+    }
+    
+    .apresentacao__links__botoes {
+        background-color: #22d4fd;
+        color: #f6f6f6;
+        text-decoration: none;
+        font-size: 24px;
+        text-align: center;
+        border-radius: 16px;
+        font-weight: 600;
+        padding: 21.5px 0;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    .apresentacao__links__botoes:hover {
+        background-color: #272727;
+    }
+
+    .footer {
+        padding: 12px;
+        color: #fbce45;
+        background-color: #272727;
+        text-align: center;
+        font-family: 'Krona One', sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+    }
